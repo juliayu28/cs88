@@ -1,0 +1,56 @@
+body {
+	background-image: linear-gradient(to right, #66a6ff, #9af7fe);
+	/*background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);*/
+	font-family: Kollektif; 
+	src: url('Kollektif.ttf');}
+}
+
+.intro {
+	font-size: 2em;
+}
+
+.intro p {
+	margin: 0;
+	font-size: 2em;
+}
+
+.intro .col-xs-7 {
+	padding: 3% 0;
+	color: white;
+}
+
+.container {
+	padding: 10% 0;
+}
+
+img {
+	border-radius: 50%;
+	width: 200px;
+	border: white;
+	box-sizing: border-box;
+    border: 8px solid rgba(256, 256, 256, 0.6);
+    margin-right: 7%;
+}
+
+.jumbotron {
+	margin: 1% 15%;
+}
+
+#mainhr {
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.weeklyheading:after {
+	display: block;
+    content: '';
+    width: 4em;
+    height: 1.5px;
+    margin-top: 3px;
+	background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%);
+}
+
+.jumbotron .desc {
+	opacity: 0.9;
+	font-size: 1.4em;
+}

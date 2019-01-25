@@ -33,6 +33,7 @@ img {
 }
 
 .jumbotron {
+	font-size: 16px;
 	margin: 1% 15%;
 }
 
@@ -50,7 +51,7 @@ img {
 	background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%);
 }
 
-.jumbotron .desc {
+.jumbotron p {
 	opacity: 0.9;
 	font-size: 1.4em;
 }

@@ -9,6 +9,11 @@ body {
 	font-family: Kollektif; 
 	src: url('Kollektif.ttf') format('truetype'),
 		 url('Kollektif.woff') format('woff');
+	height: 100%;
+	margin: 0px; 
+    background-repeat: no-repeat;  
+    background-attachment: fixed;  
+    background-size: cover;
 	/*background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);*/
 }
 

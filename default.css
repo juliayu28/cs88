@@ -98,3 +98,7 @@ a {
 a:hover {
 	color: #9b4b66;
 }
+
+.btn {
+	margin-right: 10px;
+}

@@ -1,7 +1,7 @@
 @font-face {
 	font-family: Kollektif;
 	src: url('Kollektif.ttf') format('truetype'),
-		 /*url('Kollektif.woff') format('woff')*/,
+		 url('Kollektif.woff') format('woff'),
 		 url('Kollektif.woff2') format('woff2'),
 		 url('Kollektif.eot') format('embedded-opentype'),
 		 url('Kollektif.svg#Kollektif') format('svg');
@@ -92,7 +92,7 @@ img {
 }
 
 a {
-	color: white/*#6d38a0*/;
+	color: #6d38a0;
 }
 
 a:hover {

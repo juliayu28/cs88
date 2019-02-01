@@ -10,7 +10,6 @@
 body {
 	background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
 	font-family: Kollektif, Lato, Muli; 
-	/*letter-spacing: 0.1px;*/
 	height: 100%;
 	margin: 0px; 
     background-repeat: no-repeat;  
@@ -33,24 +32,6 @@ body {
 	color: white;
 }
 
-/*#header {
-	margin: auto;
-	width: 80%;
-}
-
-#intro {
-	font-size: 2em;
-	color: white;
-}
-
-.contact {
-	display: block;
-}
-
-img {
-	float: left;
-}*/
-
 .container {
 	padding: 3.5% 0;
 }
@@ -65,7 +46,7 @@ img {
 }
 
 .jumbotron {
-	font-size: 16px;
+	font-size: 14px;
 	margin: 1% 8%;
 	box-shadow: 0px 4px 3px rgba(0,0,0,0.1),
                  0px 8px 3px rgba(0,0,0,0.1),
@@ -77,18 +58,33 @@ img {
 	margin-bottom: 20px;
 }
 
-.weeklyheading:after {
+h2:after {
 	display: block;
     content: '';
     width: 4em;
     height: 2px;
-    margin-top: 3px;
+    margin-top: 4px;
+    margin-bottom: 15px;
 	background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+}
+
+h2 {
+	font-size: 26px;
+}
+
+h4 {
+	font-size: 18px;
+	color: #5686b8;
+}
+
+.weeklyheading {
+	font-size: 24px;
+
 }
 
 .jumbotron p {
 	opacity: 0.9;
-	font-size: 1.4em;
+	font-size: 16px;
 }
 
 a {
@@ -101,4 +97,13 @@ a:hover {
 
 .btn {
 	margin-right: 10px;
+	padding-bottom: 8px;
+}
+
+td {
+	width: 50%;
+}
+
+th {
+	text-align: center;
 }
